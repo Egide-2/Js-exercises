@@ -4,5 +4,5 @@ const products = [
      {name:"pc",price:900}
 ]
 
-const sorted = products.map(p =>p.price).sort((a,b) => a-b)
+const sorted = products.sort((a,b)=> a.price - b.price)
 console.log(sorted)
