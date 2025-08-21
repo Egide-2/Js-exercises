@@ -42,7 +42,6 @@ const materials = {
     Age:78,
     price1 : 678,
 }
-
 const transformed = Object.keys(materials).map(k=>k.toUpperCase())
 console.log(transformed)
 
@@ -50,4 +49,6 @@ const multiple = Object.keys(materials).map(
  key  =>{ return {[key] : materials[key]**2}}
 
 )
+
 console.log(multiple)
+
